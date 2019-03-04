@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Flask React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- styles -->
+  </head>
+  <body>
+    <div class="container">
+      <div id="greeting-div"></div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://fb.me/react-15.0.0.js"></script>
+    <script src="https://fb.me/react-dom-15.0.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <script type="text/babel" src="{{url_for('static', filename='javascript/src/hello_react.js')}}"></script>
+
+  </body>
+</html>
